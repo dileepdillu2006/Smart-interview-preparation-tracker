@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #0f1117;
+  color: #e4e4e7;
+  font-family: 'Segoe UI', system-ui, sans-serif;
+}
+
+.app-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+.app-title {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 8px;
+  color: #ffffff;
+}
+
+.app-subtitle {
+  color: #9ca3af;
+  margin-bottom: 32px;
+}
+
+.company-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.company-card {
+  background-color: #1a1d27;
+  border: 1px solid #2a2e3a;
+  border-radius: 10px;
+  padding: 16px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: border-color 0.2s ease;
+}
+
+.company-card:hover {
+  border-color: #4f46e5;
+}
+
+.company-info h3 {
+  font-size: 1.1rem;
+  color: #ffffff;
+  margin-bottom: 4px;
+}
+
+.company-info p {
+  color: #9ca3af;
+  font-size: 0.9rem;
+}
+
+.priority-badge {
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.priority-high {
+  background-color: #7f1d1d;
+  color: #fca5a5;
+}
+
+.priority-medium {
+  background-color: #78350f;
+  color: #fcd34d;
+}
+
+.priority-low {
+  background-color: #14532d;
+  color: #86efac;
+}
